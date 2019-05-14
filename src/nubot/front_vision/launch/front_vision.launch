@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find zed_wrapper)/launch/zed.launch"> </include>
+  <node name="front_vision_node" pkg="front_vision"  type="front_vision_node"/>
+</launch>
+
